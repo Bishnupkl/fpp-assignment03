@@ -10,6 +10,7 @@ public class Prog3 {
     }
 
     public static int[] reverseArray(int[] array) {
+        if(array == null || array.length == 0) return array;
         reverseArrayGenerator(array, 0, array.length - 1);
         return array;
     }
