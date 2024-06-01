@@ -1,6 +1,6 @@
-package prob5;
+package Prog5;
 
-public class prob5 {
+public class Prog5 {
 
     public static int maxValueInArray(int[] arr, int index, int currentMax) {
         if (index == arr.length) {
