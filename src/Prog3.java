@@ -1,8 +1,6 @@
-package prob3;
-
 import java.util.Arrays;
 
-public class ReverseArray {
+public class Prog3 {
     public static void main(String[] args) {
 
         int[] initialArray = {1, 3, 4, 7, 9, 13};
