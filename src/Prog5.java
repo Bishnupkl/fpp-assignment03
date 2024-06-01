@@ -10,12 +10,15 @@ public class Prog5 {
             return maxValueInArrayGenerate(arr, index + 1, currentMax);
         }
     }
+
     public static int maxValueInArray(int[] arr) {
-        if(arr == null || arr.length == 0) return -1;
+        if (arr == null || arr.length == 0)
+            return -1;
         return maxValueInArrayGenerate(arr, 0, arr[0]);
     }
+
     public static void main(String[] args) {
-        int[] arr = new int[]{5, -3, 6, 1, 9, 4, 24};
+        int[] arr = new int[] { 5, -3, 6, 1, 9, 4, 24 };
         System.out.println("Max value is: " + maxValueInArray(arr));
     }
 }
