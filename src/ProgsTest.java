@@ -20,12 +20,12 @@ class ProgsTest {
         double actual = Math.pow(5, -2);
         assertEquals(expect, actual);
     }
-//    @Test
-//    void TestPowerCase3(){ //0 power by negative x
-//        double actual = Math.pow(0, -1);
-//        double expect = Prog1.power(0, -1);
-//        assertEquals(expect, actual);
-//    }
+    @Test
+    void TestPowerCase3(){ //0 power by negative x
+        double actual = Math.pow(0, -1);
+        double expect = Prog1.power(0, -1);
+        assertEquals(expect, actual);
+    }
     @Test
     void TestPowerCase4(){ //positive x power by 0
         double expect = Prog1.power(5, 0);

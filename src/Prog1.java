@@ -19,7 +19,7 @@ public class Prog1 {
         }
         else {  // Negative power case
             if (x == 0) {  // Handle division by zero for negative base and exponent
-                throw new ArithmeticException("Cannot raise zero to a negative power");
+                return Double. POSITIVE_INFINITY;
             }
             return 1.0 / power(x, -n);
         }
